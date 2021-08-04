@@ -1,0 +1,20 @@
+goto_bookshelf_page:
+  - by: xpath
+    action: find_click
+    locator: //*[@text='书架']
+
+goto_bookstore_page:
+  - by: xpath
+    action: find_click
+    locator: //*[@text='书城']
+
+goto_category_page:
+  - by: xpath
+    action: find_click
+    locator: //*[@text='分类']
+
+goto_mine_page:
+  - by: xpath
+    action: find_click
+    locator: //*[@text='我的']
+
